@@ -31,7 +31,6 @@ weatherapp/
 ├── App.jsx               # Main component
 ├── index.css             # Global styles (Tailwind)
 ├── main.jsx              # Application entry point
-text
 
 ## 🌐 Where to Access
 
