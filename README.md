@@ -9,7 +9,7 @@ WeatherApp is a front-end application that fetches and displays live weather dat
     Real-Time Weather Search: Look up current weather conditions by entering any city name.
     Detailed Weather Info: View temperature, humidity, and a brief weather description.
     Responsive Design: Enjoy a smooth experience on desktop, tablet, or mobile.
-    Error Handling: Clear visual feedback for invalid inputs (e.g., city not found).
+
 
 🚀 Technologies Used
 
