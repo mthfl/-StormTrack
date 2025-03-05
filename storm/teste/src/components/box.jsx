@@ -14,8 +14,11 @@ function Box() {
         if (city.trim() !== '') {
             setLoading(true);
             try {
+                // Normaliza a cidade para garantir consistência (remove espaços extras e converte para minúsculas)
+                const normalizedCity = city.trim().toLowerCase();
+                
                 const response = await fetch(
-                    `${API_URL}?q=${city}&appid=${API_KEY}&units=metric&lang=pt_br`
+                    `${API_URL}?q=${normalizedCity}&appid=${API_KEY}&units=metric&lang=pt_br`
                 );
                 
                 if (!response.ok) {
