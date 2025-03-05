@@ -18,19 +18,7 @@ WeatherApp is a front-end application that consumes a weather API to display rea
 - **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid and customizable styling.
 - **Weather API**: Integration with an external API to fetch weather data.
 
-## 📂 Project Structure
 
-weatherapp/
-├── components/            # Reusable React components
-│   ├── box.jsx           # Component for displaying information boxes
-│   ├── footer.jsx        # Footer component
-│   ├── header.jsx        # Header component
-│   ├── section1.jsx      # First page section
-│   ├── section2.jsx      # Second page section
-├── App.css               # Specific styles for the App component
-├── App.jsx               # Main component
-├── index.css             # Global styles (Tailwind)
-├── main.jsx              # Application entry point
 
 ## 🌐 Where to Access
 
